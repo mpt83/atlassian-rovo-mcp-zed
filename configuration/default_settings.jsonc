@@ -1,0 +1,15 @@
+{
+  // Atlassian's current Rovo MCP endpoint.
+  "url": "https://mcp.atlassian.com/v1/mcp/authv2",
+
+  // The stdio-to-remote MCP proxy package used by this extension.
+  "mcp_remote_package": "mcp-remote@latest",
+
+  // Optional arguments passed to mcp-remote before the URL.
+  // Leave empty for the normal OAuth flow.
+  "extra_args": [],
+
+  // npm cache directory used by npx. The default avoids permission problems
+  // in the user-level npm cache.
+  "npm_cache": ".npm-cache"
+}

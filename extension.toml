@@ -1,0 +1,10 @@
+id = "atlassian-rovo-mcp"
+name = "Atlassian Rovo MCP"
+description = "Connect Zed to the Atlassian Rovo MCP Server for Jira, Confluence, and Compass."
+version = "0.1.0"
+schema_version = 1
+authors = ["Matthew P Tidwell"]
+repository = "https://github.com/mpt83/atlassian-rovo-mcp-zed"
+
+[context_servers.atlassian-rovo]
+name = "Atlassian Rovo MCP Server"
